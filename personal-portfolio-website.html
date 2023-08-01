@@ -3,81 +3,144 @@
   <head>
     <mata charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
 
     <title>Personal portfolio website</title>
 
   </head>
   <body>
     <main>
+      <nav>
+        <ul class="nav-list">
+          <li>
+            <a href="#Header">About</a>
+          </li>
+          <li>
+            <a href="#Projects">Projects</a>
+          </li>
+          <li>
+            <a href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
       <header id="Header">
-        <nav>
-          <a href="#Header">about</a>
-          <a href="#">projects</a>
-          <a href="#">contact</a>
-        </nav>
-        <h1>Hellow my name is Hamid</h1>
-        <p>I'm trying to be an IT guy.😎</p>
+        <h1>Hey i am Hamid</h1>
+        <p>I'm trying to be an IT guy.</p>
 
       </header>
       <section id="Projects">
-        <h2>There are some of my projects</h2>
-        <a href="https://hamidmoladev.github.io/clipboard-landing-page-master/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/clipboard-landing-page-master/blob/main/Screenshots-of-My-Solution/@hamidMolaDev.png?raw=true">
-            <figcaption>Clipboard landing page<figcaption>
-          </figure>
-        </a>
-        <a href="https://hamidmoladev.github.io/chat-app-css-illustration/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/chat-app-css-illustration/blob/main/screenshots-of-My-Solution/@hamidMolaDev.png?raw=true">
-            <figcaption>Chat app CSS illustration<figcaption>
-          </figure>
-        </a>   
-        <a href="https://hamidmoladev.github.io/Stats-preview-card-component/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/Stats-preview-card-component/blob/main/Screenshots-My-Solution/@hamidMolaDev.jpg?raw=true">
-            <figcaption>Stats preview card component<figcaption>
-          </figure>
-        </a>
-        <a href="https://hamidmoladev.github.io/Order-summary-card/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/Order-summary-card/blob/main/Screenshot/@hamidMolaDev.png?raw=true">
-            <figcaption>Order summary component<figcaption>
-          </figure>
-        </a>
-        <a href="https://hamidmoladev.github.io/card-component/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/card-component/blob/main/screenshot/@hamidMolaDev.png?raw=true">
-            <figcaption>Product preview card component<figcaption>
-          </figure>
-        </a>
-        <a href="https://hamidmoladev.github.io/qr-code-sample/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/qr-code-sample/blob/main/Screenshot/@hamidMolaDev.png?raw=true">
-            <figcaption>QR code component<figcaption>
-          </figure>
-        </a>
-        <a href="https://hamidmoladev.github.io/Rock-Paper-Scissors/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/Rock-Paper-Scissors/blob/main/Screenshots-of-My-Project/@hamidMolaDev(3).png?raw=true">
-            <figcaption>Rock Paper Scissors<figcaption>
-          </figure>
-        </a>
-        <a href="https://hamidmoladev.github.io/Todo-List/" target="_blank">
-          <figure>
-            <img width="200px" src="https://github.com/hamidMolaDev/Todo-List/blob/main/Screenshots-of-My-Project/@hamidMolaDev.png?raw=true">
-            <figcaption>Todo List<figcaption>
-          </figure>
-        </a>
+        <h2 id="projects-header">There are some of my projects</h2>
+        <div id="projects-grid">
+          <a class="project height" href="https://hamidmoladev.github.io/card-component/" target="_blank">
+            <figure>
+              <img class="project-image" src="https://github.com/hamidMolaDev/card-component/blob/main/Screenshots-of-My-Projec/@hamidMolaDev.png?raw=true" alt="design of Product preview card component">
+              <figcaption class="project-title">
+                <span class="code">➡</span>
+                Product preview card component
+                <span class="code">⬅</span>
+              <figcaption>
+            </figure>
+          </a>
+          <a class="project" href="https://hamidmoladev.github.io/chat-app-css-illustration/" target="_blank">
+            <figure>
+              <img class="project-image" src="https://github.com/hamidMolaDev/chat-app-css-illustration/blob/main/screenshots-of-My-Solution/@hamidMolaDev.png?raw=true" alt="design of Chat app CSS illustration">
+              <figcaption class="project-title">
+                <span class="code">➡</span>
+                Chat app CSS illustration
+                <span class="code">⬅</span>
+              <figcaption>
+            </figure>
+          </a>   
+          <a class="project" href="https://hamidmoladev.github.io/Stats-preview-card-component/" target="_blank">
+            <figure>
+              <img class="project-image" src="https://github.com/hamidMolaDev/Stats-preview-card-component/blob/main/Screenshots-My-Solution/@hamidMolaDev.jpg?raw=true" alt="design of Stats preview card component">
+              <figcaption class="project-title">
+                <span class="code">➡</span>
+                Stats preview card component
+                <span class="code">⬅</span>
+              <figcaption>
+            </figure>
+          </a>
+          <a class="project" href="https://hamidmoladev.github.io/Order-summary-card/" target="_blank">
+            <figure>
+              <img class="project-image" src="https://github.com/hamidMolaDev/Order-summary-card/blob/main/Screenshot/@hamidMolaDev.png?raw=true" alt="design of Order summary component">
+              <figcaption class="project-title">
+                <span class="code">➡</span>
+                Order summary component
+                <span class="code">⬅</span>
+              <figcaption>
+            </figure>
+          </a>
+          <a class="project" href="https://hamidmoladev.github.io/Rock-Paper-Scissors/" target="_blank">
+            <figure>
+              <img class="project-image" src="https://github.com/hamidMolaDev/Rock-Paper-Scissors/blob/main/Screenshots-of-My-Project/@hamidMolaDev(3).png?raw=true" alt="design of Rock Paper Scissors">
+              <figcaption class="project-title">
+                <span class="code">➡</span>
+                Rock Paper Scissors
+                <span class="code">⬅</span>
+              <figcaption>
+            </figure>
+          </a>
+          <a class="project" href="https://hamidmoladev.github.io/Todo-List/" target="_blank">
+            <figure>
+              <img class="project-image" src="https://github.com/hamidMolaDev/Todo-List/blob/main/Screenshots-of-My-Project/@hamidMolaDev.png?raw=true" alt="design of Todo List">
+              <figcaption class="project-title">
+                <span class="code">➡</span>
+                Todo List
+                <span class="code">⬅</span>
+              <figcaption>
+            </figure>
+          </a>
+          <a id="long-one" class="project" href="https://hamidmoladev.github.io/clipboard-landing-page-master/" target="_blank">
+            <figure>
+              <img class="project-image" src="https://github.com/hamidMolaDev/clipboard-landing-page-master/blob/main/Screenshots-of-My-Solution/@hamidMolaDev.jpg?raw=true" alt="design of Clipboard landing page">
+              <figcaption class="project-title">
+                <span class="code">➡</span>
+                Clipboard landing page
+                <span class="code">⬅</span>
+              <figcaption>
+                
+            </figure>
+          </a>
         
+        </div>
+        <a class="btn btn-show-all" href="https://github.com/hamidMolaDev?tab=projects" class="btn btn-show-all" target="_blank">
+          Show all
+          <i class="fas fa-chevron-right"></i>
 
+        </a>
 
+      </section>
+      <section id="Contact" class="contact-section">
+        <div class="contact-section-header">
+          <h2>Let's work together...</h2>
+          <p>Keep in touch with me, okay?</p>
+        </div>
+        <div class="contact-links">
+          <a href="https://www.facebook.com/profile.php?id=100087108644758" target="_blank" class="btn contact-details"><i class="fab fa-facebook-square"></i> Facebook</a>
+          <a id="profile-link" href="https://github.com/hamidMolaDev" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://twitter.com/hamidmola7296" target="_blank" class="btn contact-details"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="mailto:hamidmola7296@gmail.com" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a>
+          <a href="https://t.me/hamidMolaDev"  target="_blank" class="btn contact-details"><svg id="svg-id" xmlns="http://www.w3.org/2000/svg" height="1.1em" viewBox="0 0 496 512">
+            <path d="M248,8C111.033,8,0,119.033,0,256S111.033,504,248,504,496,392.967,496,256,384.967,8,248,8ZM362.952,176.66c-3.732,39.215-19.881,134.378-28.1,178.3-3.476,18.584-10.322,24.816-16.948,25.425-14.4,1.326-25.338-9.517-39.287-18.661-21.827-14.308-34.158-23.215-55.346-37.177-24.485-16.135-8.612-25,5.342-39.5,3.652-3.793,67.107-61.51,68.335-66.746.153-.655.3-3.1-1.154-4.384s-3.59-.849-5.135-.5q-3.283.746-104.608,69.142-14.845,10.194-26.894,9.934c-8.855-.191-25.888-5.006-38.551-9.123-15.531-5.048-27.875-7.717-26.8-16.291q.84-6.7,18.45-13.7,108.446-47.248,144.628-62.3c68.872-28.647,83.183-33.623,92.511-33.789,2.052-.034,6.639.474,9.61,2.885a10.452,10.452,0,0,1,3.53,6.716A43.765,43.765,0,0,1,362.952,176.66Z" fill="white" />
+          </svg> Telegram</a>
 
+        </div>
 
       </section>
       
     </main>
+    <footer>
+      Coded by <a href="https://github.com/hamidMolaDev" target="_blank">@hamidMolaDev</a>
+
+            <a id="top" href="#Header"> <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM377 271c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-87-87-87 87c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 167c9.4-9.4 24.6-9.4 33.9 0L377 271z" fill="gray"/></svg></a>
+           
+        </div>
+    </footer>
   </body>
 </html>
